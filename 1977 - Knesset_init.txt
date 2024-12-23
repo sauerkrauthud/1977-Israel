@@ -28,7 +28,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 15,
         "fields": {
-            "year": 1988,
+            "year": 1977,
             "summary": "<p>After the disastrous Yom Kippur War of 1973 which caught the Israeli state off-guard, the numerous corruption allegations, and the steadily increasing alienation of the Sephardi and Mizrahi populations, the people of Israel have begun to tire of the old ruling party, the Alignment, and have begun to sought for themselves a change..</p><ul><li>Menachem Begin must make his case to the Israeli public, and balance the needs of his many faction members in the Likud, his voter base, and Israeli public opinion at large.</li><li>Shimon Peres must keep his party together, fighting off an intense rival in former Prime Minister Yitzhak Rabin, while being able to ensure another victory for the Socialist Alignment.</li></ul>",
             "image_url": "https://i.imgur.com/DuLrCKp.png",
             "winning_electoral_vote_number": 270,
@@ -45,7 +45,7 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 50000,
+        "pk": 500,
         "fields": {
             "first_name": "Menachem",
             "last_name": "Begin",
@@ -68,7 +68,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50001,
+        "pk": 501,
         "fields": {
             "first_name": "Shimon",
             "last_name": "Peres",
@@ -91,7 +91,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50002,
+        "pk": 502,
         "fields": {
             "first_name": "Yigael",
             "last_name": "Yadin",
@@ -114,7 +114,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50003,
+        "pk": 503,
         "fields": {
             "first_name": "Likud",
             "last_name": "",
@@ -137,7 +137,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50004,
+        "pk": 504,
         "fields": {
             "first_name": "The",
             "last_name": "Alignment",
@@ -160,7 +160,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50005,
+        "pk": 505,
         "fields": {
             "first_name": "Dash",
             "last_name": "",
@@ -188,24 +188,24 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 130359,
         "fields": {
-            "candidate": 50000,
-            "running_mate": 50003
+            "candidate": 500,
+            "running_mate": 503
         }
     },
     {
         "model": "campaign_trail.running_mate",
         "pk": 86024,
         "fields": {
-            "candidate": 50001,
-            "running_mate": 50004
+            "candidate": 501,
+            "running_mate": 504
         }
     },
     {
         "model": "campaign_trail.running_mate",
         "pk": 163785,
         "fields": {
-            "candidate": 50002,
-            "running_mate": 50005
+            "candidate": 502,
+            "running_mate": 505
         }
     }
 ]
@@ -216,9 +216,9 @@ campaignTrail_temp.opponents_default_json = [
     {
         "election": 15,
         "candidates": [
-            50000,
-            50001,
-            50002
+            500,
+            501,
+            502
         ]
     }
 ]
@@ -227,9 +227,9 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 15,
         "candidates": [
-            50000,
-            50001,
-            50002
+            500,
+            501,
+            502
         ]
     }
 ]
@@ -237,7 +237,7 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 15,
-        "year": 1988,
+        "year": 1977,
         "is_premium": 0,
         "display_year": "1977 - Knesset"
     }

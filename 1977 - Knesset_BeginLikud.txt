@@ -28,7 +28,7 @@ campaignTrail_temp.answers_json = [
 campaignTrail_temp.states_json = [
     {
         "model": "campaign_trail.state",
-        "pk": 15808,
+        "pk": 15800,
         "fields": {
             "name": "Sinai",
             "abbr": "SN",
@@ -42,7 +42,7 @@ campaignTrail_temp.states_json = [
     },
     {
         "model": "campaign_trail.state",
-        "pk": 15818,
+        "pk": 15801,
         "fields": {
             "name": "Judea",
             "abbr": "JS",
@@ -56,7 +56,7 @@ campaignTrail_temp.states_json = [
     },
     {
         "model": "campaign_trail.state",
-        "pk": 15828,
+        "pk": 15802,
         "fields": {
             "name": "Golan",
             "abbr": "GL",
@@ -70,7 +70,7 @@ campaignTrail_temp.states_json = [
     },
     {
         "model": "campaign_trail.state",
-        "pk": 15838,
+        "pk": 15803,
         "fields": {
             "name": "Gaza",
             "abbr": "GZ",
@@ -84,7 +84,7 @@ campaignTrail_temp.states_json = [
     },
     {
         "model": "campaign_trail.state",
-        "pk": 15848,
+        "pk": 15804,
         "fields": {
             "name": "Israel",
             "abbr": "IS",
@@ -118,7 +118,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 15617,
         "fields": {
             "answer": 10001,
-            "candidate": 50000,
+            "candidate": 500,
             "answer_feedback": "Dongs."
         }
     }
@@ -126,16 +126,17 @@ campaignTrail_temp.answer_feedback_json = [
 
 
 
-campaignTrail_temp.jet_data = [{
-    "mapping_enabled": true,
-    "mapping_data": {
-        "electionPk": "15",
-        "mapSvg": "",
-        "x": "525",
-        "y": "325",
-        "dx": "-165",
-        "dy": "0"
-    }
-}
+campaignTrail_temp.jet_data = [
+	{
+		"mapping_enabled": true,
+		"mapping_data": {
+			"electionPk": "15",
+			"mapSvg": "",
+			"x": "525",
+			"y": "325",
+			"dx": "-165",
+			"dy": "0"
+		}
+	}
 ]
 
