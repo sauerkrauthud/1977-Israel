@@ -1,0 +1,280 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 15,
+        "fields": {
+            "year": 1988,
+            "summary": "<p>After the disastrous Yom Kippur War of 1973 which caught the Israeli state off-guard, the numerous corruption allegations, and the steadily increasing alienation of the Sephardi and Mizrahi populations, the people of Israel have begun to tire of the old ruling party, the Alignment, and have begun to sought for themselves a change..</p><ul><li>Menachem Begin must make his case to the Israeli public, and balance the needs of his many faction members in the Likud, his voter base, and Israeli public opinion at large.</li><li>Shimon Peres must keep his party together, fighting off an intense rival in former Prime Minister Yitzhak Rabin, while being able to ensure another victory for the Socialist Alignment.</li></ul>",
+            "image_url": "https://i.imgur.com/DuLrCKp.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/fGl9NXU.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>Peter Goldman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B012HU7SZA/amhius20-20\" target=\"_blank\">The Quest for the Presidency, 1988</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-299_1_dukakis-lost-reelection\" target=\"_blank\">How Presidential Race Was Won-and Lost : Michael S. Dukakis</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-302_1_george-bush\" target=\"_blank\">How Presidential Race Was Won--and Lost : George Bush</a></br><a href=\"http://www.usnews.com/news/articles/2008/01/17/the-photo-op-that-tanked\" target=\"_blank\">Michael Dukakis: The Photo Op That Tanked</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1977 - Knesset"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Menachem",
+            "last_name": "Begin",
+            "election": 15,
+            "party": "Likud (Herut Faction)",
+            "state": "Israel",
+            "priority": 1,
+            "description": "<p><em>\"We will defend our children. If the hand of any two-footed animal is raised against them, that hand will be cut off, and our children will grow up in joy in the homes of their parents.\" - Menachem Begin</em></p>\n\n<p>Menachem Begin, radical terrorist turned sensible politician - from the Irgun to the Knesset, and, if it all goes well, the Prime Minister's seat. He has spent years jockeying for the Prime Ministership and leadership over the country ever since its founding in 1948, but his reputation as leader of the Irgun, widely viewed as a terrorist organization, has made things complicated for him, with his image only softening with the help of his alliance with the Liberal Party, and an overall softening of rhetoric.</p>\n<p>He will have to balance the wants of his alliance partners, his voter base, and the Israeli public at large if he is to have a shot at the long-barred Prime Ministership.</p>",
+            "color_hex": "#1f5aa5",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/TmDIQl0.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Shimon",
+            "last_name": "Peres",
+            "election": 15,
+            "party": "Alignment",
+            "state": "Israel",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ee1c25",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/tavsth4.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Yigael",
+            "last_name": "Yadin",
+            "election": 15,
+            "party": "Democratic Movement for Change (Dash)",
+            "state": "Israel",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50003,
+        "fields": {
+            "first_name": "Likud",
+            "last_name": "",
+            "election": 15,
+            "party": "Likud - National Liberal Movement",
+            "state": "Israel",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#4391ef",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/l8yUPPY.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>The Likud was formed in 1973 as an alliance between Begin's Herut, the Liberals, Ben Gurion's National List, and other minor parties. Their performance in the self-same election saw them win 39 seats, the best showing for the Israeli Right yet, up from the 26 seats gained by Likud's predecessor Gahal, itself an alliance between Herut and the Liberal Party.</p>\n<p>The Likud representing the Israeli Right, backed by a wide-ranging coalition of middle class Israelis, blue-collar Sephardim and Mizrahim, and hawks seeking to keep the land gained from the Six-Day War, is now poised, for the first time in Israeli history, to win the election.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50004,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Alignment",
+            "election": 15,
+            "party": "Alignment",
+            "state": "Israel",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#de3a3a",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/L2logox.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50005,
+        "fields": {
+            "first_name": "Dash",
+            "last_name": "",
+            "election": 15,
+            "party": "Democratic Movement for Change",
+            "state": "Israel",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/skbUDGf.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 130359,
+        "fields": {
+            "candidate": 50000,
+            "running_mate": 50003
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 86024,
+        "fields": {
+            "candidate": 50001,
+            "running_mate": 50004
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 163785,
+        "fields": {
+            "candidate": 50002,
+            "running_mate": 50005
+        }
+    }
+]
+
+campaignTrail_temp.credits = "the Izz al-Din Al-Qassam Brigades"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 15,
+        "candidates": [
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 15,
+        "candidates": [
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 15,
+        "year": 1988,
+        "is_premium": 0,
+        "display_year": "1977 - Knesset"
+    }
+]
+
+jet_data = {
+    "headerColor": "#03386d",
+    "windowColor": "#93b3fd",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#a5bdf8",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"Ladies and gentlemen - a revolution!\" - Haim Yavin",
+    "gameTitle": "The Campaign Trail (this but in Hebrew)"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>The Campaign Trail (this but in Hebrew)</h2><font id="wittyquote" size="4" color="white"><em>"Ladies and gentlemen - a revolution!" - Haim Yavin</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#03386d";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#93b3fd";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#a5bdf8!important;}</style>";
+
+//#endcode
