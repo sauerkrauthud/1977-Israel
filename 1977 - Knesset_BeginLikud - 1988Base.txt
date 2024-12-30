@@ -1549,8 +1549,8 @@ function add_tooltips() {
 
 tooltip_dict = {
     "Yom Kippur War": "Fought from October 3rd to October 25th of 1973, the Yom Kippur War, while a victory for the Israelis, was horribly mismanaged when war broke out, leading to the resignations of key leaders, including Golda Meir.",
-    "Golda Meir": "Prime Minister of Israel from 1969 and 1974. Israeli Iron Lady."
-	"rampant corruption": "Asher Yadlin, prominent fundraiser for the Alignment and head of <em>Kupat Holim</em>, Israel's health insurance program, went to trial over allegations that he had taken bribe money, just as he had been about to become Governor of the Bank of Israel."
+    "Golda Meir": "Prime Minister of Israel from 1969 and 1974. Israeli Iron Lady.",
+	"rampant corruption": "Asher Yadlin, prominent fundraiser for the Alignment and head of <em>Kupat Holim</em>, Israel's health insurance program, went to trial over allegations that he had taken bribe money, just as he had been about to become Governor of the Bank of Israel.",
 }
 
 add_tooltips();
