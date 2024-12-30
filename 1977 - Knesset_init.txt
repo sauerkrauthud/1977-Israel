@@ -252,7 +252,7 @@ jet_data = {
     "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
     "endingTextColor": "#000000",
     "customQuote": "\"Ladies and gentlemen - a revolution!\" - Haim Yavin",
-    "gameTitle": "The Campaign Trail (this but in Hebrew)"
+    "gameTitle": "הקמפיין הפוליטי"
 }
 
 //#startcode
